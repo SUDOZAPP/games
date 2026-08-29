@@ -1,4 +1,57 @@
 # SUOU Games for Windows
+## English
+
+This repository contains Windows builds of SUOU interactive games and learning tools. Each title is distributed as a single `.exe` with its own application icon. The HTML experience and required assets are embedded, so no installation or manual extraction is required.
+
+### Available titles
+
+| Application | Description | Size |
+|---|---|---:|
+| `Balls2018-v2.5-Relaxed-Orchestra.exe` | Space-ball shooting experience with Relaxed Orchestra music | Approx. 0.7 MB |
+| `Lucky-Bahasa-Slot-v1.5.9.exe` | Indonesian letters, words, conversations, and spelling practice | Approx. 8.7 MB |
+| `Lucky-Kana-Slot-v1.10.9.14.exe` | Hiragana, katakana, kana, and Japanese pronunciation practice | Approx. 13.6 MB |
+| `Lucky-Turkish-Slot-v1.8.0.exe` | Turkish letters, vocabulary, and Apple-style conversation practice | Approx. 6.8 MB |
+| `lucky-word-slots-v3.3.1.exe` | Classroom-friendly Lucky Word Slots game | Approx. 2.6 MB |
+| `pachinko-moon-maiden-v2.3.25.11.exe` | Moon Maiden pachinko experience | Approx. 15.1 MB |
+| `SQFT-Formula-Slot-v0.8.11.6.exe` | SQFT formula, symbol, and concept learning game | Approx. 5.1 MB |
+| `SUOU-Element-Periodic-Table-Slot-v1.11.4.exe` | Periodic-table quiz with English pronunciation | Approx. 9.1 MB |
+| `Terra-S077.40.7.6.22.exe` | Multilingual SUOU FieldSense Terra experience | Approx. 9.1 MB |
+
+### System requirements
+
+- Windows 10 or Windows 11
+- Microsoft Edge
+- Speakers or headphones for audio and voice features
+- Camera access is enabled only after the user grants permission
+
+### How to run
+
+1. Select the desired `.exe` file on GitHub.
+2. Choose **Download raw file**, or download it from the Releases page.
+3. Double-click the downloaded executable.
+4. Click or tap the game once before using audio for the first time.
+
+Each executable opens its embedded game in a standalone Microsoft Edge application window. Learning progress and preferences are stored locally by the browser on the device.
+
+### Windows security notice
+
+These executables are not currently signed with a commercial code-signing certificate. Windows SmartScreen may therefore display a warning on first launch. Download files only from the official repository page and verify the filename and source before running them.
+
+### Troubleshooting
+
+- **The application does not open:** Make sure Microsoft Edge is installed and up to date.
+- **There is no sound:** Click the game once, then check the volume settings in Windows, Edge, and the application.
+- **English or Japanese speech is unavailable:** Install the corresponding Windows system voice. Some titles use browser speech as a fallback.
+- **Camera mode is blank:** Allow camera access when Edge displays the permission prompt.
+- **The icon does not update immediately:** Windows may have cached an older icon. Refresh File Explorer or sign out and back in.
+
+### Privacy
+
+No account is required. Progress, preferences, and game state are primarily stored on the user's local device. Camera access is used only when the user explicitly selects a camera feature and grants permission.
+
+### Licenses and copyright
+
+The code, images, audio, logos, characters, and other media included with each title may be governed by different licenses. Refer to the `LICENSE` files, asset licenses, and copyright notices included with the original project or release package. Unless explicitly licensed otherwise, all rights to branded and media content remain with their respective owners.
 
 SUOU 的 Windows 版互動遊戲與學習工具合集。每個程式都是具有獨立 ICON 的單一 `.exe`，內含完整 HTML、介面與必要素材；不需要另外解壓縮或安裝。
 
@@ -59,59 +112,3 @@ English documentation follows the Chinese section.
 不同遊戲的程式碼、圖像、音訊、Logo、角色與其他媒體可能適用不同授權。請以各原始專案或發行包內的 `LICENSE`、素材授權及著作權聲明為準。除另有明確授權外，品牌與媒體內容的相關權利均由原權利人保留。
 
 ---
-
-## English
-
-This repository contains Windows builds of SUOU interactive games and learning tools. Each title is distributed as a single `.exe` with its own application icon. The HTML experience and required assets are embedded, so no installation or manual extraction is required.
-
-### Available titles
-
-| Application | Description | Size |
-|---|---|---:|
-| `Balls2018-v2.5-Relaxed-Orchestra.exe` | Space-ball shooting experience with Relaxed Orchestra music | Approx. 0.7 MB |
-| `Lucky-Bahasa-Slot-v1.5.9.exe` | Indonesian letters, words, conversations, and spelling practice | Approx. 8.7 MB |
-| `Lucky-Kana-Slot-v1.10.9.14.exe` | Hiragana, katakana, kana, and Japanese pronunciation practice | Approx. 13.6 MB |
-| `Lucky-Turkish-Slot-v1.8.0.exe` | Turkish letters, vocabulary, and Apple-style conversation practice | Approx. 6.8 MB |
-| `lucky-word-slots-v3.3.1.exe` | Classroom-friendly Lucky Word Slots game | Approx. 2.6 MB |
-| `pachinko-moon-maiden-v2.3.25.11.exe` | Moon Maiden pachinko experience | Approx. 15.1 MB |
-| `SQFT-Formula-Slot-v0.8.11.6.exe` | SQFT formula, symbol, and concept learning game | Approx. 5.1 MB |
-| `SUOU-Element-Periodic-Table-Slot-v1.11.4.exe` | Periodic-table quiz with English pronunciation | Approx. 9.1 MB |
-| `Terra-S077.40.7.6.22.exe` | Multilingual SUOU FieldSense Terra experience | Approx. 9.1 MB |
-
-### System requirements
-
-- Windows 10 or Windows 11
-- Microsoft Edge
-- Speakers or headphones for audio and voice features
-- Camera access is enabled only after the user grants permission
-
-### How to run
-
-1. Select the desired `.exe` file on GitHub.
-2. Choose **Download raw file**, or download it from the Releases page.
-3. Double-click the downloaded executable.
-4. Click or tap the game once before using audio for the first time.
-
-Each executable opens its embedded game in a standalone Microsoft Edge application window. Learning progress and preferences are stored locally by the browser on the device.
-
-### Windows security notice
-
-These executables are not currently signed with a commercial code-signing certificate. Windows SmartScreen may therefore display a warning on first launch. Download files only from the official repository page and verify the filename and source before running them.
-
-### Troubleshooting
-
-- **The application does not open:** Make sure Microsoft Edge is installed and up to date.
-- **There is no sound:** Click the game once, then check the volume settings in Windows, Edge, and the application.
-- **English or Japanese speech is unavailable:** Install the corresponding Windows system voice. Some titles use browser speech as a fallback.
-- **Camera mode is blank:** Allow camera access when Edge displays the permission prompt.
-- **The icon does not update immediately:** Windows may have cached an older icon. Refresh File Explorer or sign out and back in.
-
-### Privacy
-
-No account is required. Progress, preferences, and game state are primarily stored on the user's local device. Camera access is used only when the user explicitly selects a camera feature and grants permission.
-
-### Licenses and copyright
-
-The code, images, audio, logos, characters, and other media included with each title may be governed by different licenses. Refer to the `LICENSE` files, asset licenses, and copyright notices included with the original project or release package. Unless explicitly licensed otherwise, all rights to branded and media content remain with their respective owners.
-
-
